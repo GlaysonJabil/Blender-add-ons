@@ -1,7 +1,7 @@
 ## Add-on 2D to 3D ##
 
 ````
-Para rodar este projeto você vai precisar instalar os softwares abaixo
+Para rodar este projeto você vai precisar instalar os softwares e bibliotecas abaixo
 ````
 * Blender 3D www.blender.com
 * Visual studio Code www.visualstudiocode.com
