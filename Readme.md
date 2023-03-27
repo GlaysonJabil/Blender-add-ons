@@ -7,6 +7,8 @@ Para rodar este projeto você vai precisar instalar os softwares abaixo
 * Visual studio Code www.visualstudiocode.com
 * ChatGp3 www.chatgpt3.com
 * MidJourney www.midjourney.com
+* ThreeJs 
+* Gimp
 ````
 app.js
 ````
