@@ -64,7 +64,7 @@
 // console.log(typeof minhaVar)
 // console.log(typeof varNull)
 
-// --- Conversões implicita
+// --- CONVERSÃO IMPLICITA
 
 // const nuremo1 = 345;
 // const numeroString1 = "345";
@@ -81,23 +81,52 @@
 
 // Conversão explicita Number() e String()
 
-const nuremo1 = 345;
-const numeroString1 = "345";
+// const nuremo1 = 345;
+// const numeroString1 = "345";
 
 
-const nuremo2 = 345;
-const numeroString2 = "345";
+// const nuremo2 = 345;
+// const numeroString2 = "345";
 
-console.log(nuremo1 === Number(numeroString1)) // 
+// console.log(nuremo1 === Number(numeroString1)) // 
 
-console.log(nuremo1 === String(nuremo2))
+// console.log(nuremo1 === String(nuremo2))
 
-console.log(nuremo2 == numeroString2)  
+// console.log(nuremo2 == numeroString2)  
 
-console.log(nuremo1 + numeroString1)
+// console.log(nuremo1 + numeroString1)
 
-console.log(nuremo2 + Number(numeroString2))
+// console.log(nuremo2 + Number(numeroString2))
 
-console.log(String(nuremo1) + String(nuremo2))
+// console.log(nuremo1.toString() + nuremo2.toString())
 
-console.log(Number(numeroString1) + Number(numeroString2))
+// console.log(Number(numeroString1) + Number(numeroString2))
+
+
+// ----- VARIAVEIS E A RESPOSTA DE TUDO -----
+
+
+const usuario = "Glayson Ribeiro"; 
+const matricula = 10001614
+let cargo1 = "Mechacical especialist";
+let cargo2 = "Desenvolvedor JAva";
+let cargo3 = "Toolings"
+let cargoAtual = "meuCargo";
+let idade = 37;
+let tempoDeCasa = idade - 19;
+let treinamentoJava = 3;
+let turno = "Turno de trabalho"
+
+
+if (treinamentoJava == 1) {
+    cargoAtual = cargo2;   
+} else if(treinamentoJava == 0 ) {
+    cargoAtual = cargo1
+} else{
+    cargoAtual = cargo3
+}
+
+
+console.log("Nome" + " " + usuario + " " + "Matricula" + " " + matricula + " " + "Idade" + " " + idade)
+console.log("Cargo atual " + cargoAtual)
+console.log("Tempo de casa " + tempoDeCasa)
