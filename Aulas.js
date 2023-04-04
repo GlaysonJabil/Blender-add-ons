@@ -39,7 +39,7 @@
 // const usuarioLogado = true
 // const contaPaga = false
 
-// --- truth ou falsy 
+// --- truth ou falsy -----
 
 // 0 => false 
 //1 => true 
@@ -58,23 +58,23 @@
 // console.log(varNull)
 
 
-// console.log(typeof numero)
-// console.log(typeof texto)
+// console.log(typeof numero) \\ pede para mostrar tipo da variável = Number
+// console.log(typeof texto)  \\ pede para mostrar tipo da variável = String 
 
 // console.log(typeof minhaVar)
 // console.log(typeof varNull)
 
-// --- CONVERSÃO IMPLICITA -----
+// --- CONVERSÃO IMPLICITA E EXPLICITA -----
 
 // const nuremo1 = 345;
 // const numeroString1 = "345";
 
-// console.log(nuremo1 === numeroString1) // 3 iguais compara o tipo -Boolean 345 === String "345" = False
+// console.log(nuremo1 === numeroString1) // Explicita - 3 iguais compara o tipo Boolean 345 com o tipo String "345" e os valores delas = False
 
 // const nuremo2 = 345;
 // const numeroString2 = "345";
 
-// console.log(nuremo2 == numeroString2) // 2 uguais compara o conteuro Booleam 345 == String "345"
+// console.log(nuremo2 == numeroString2) // Implicita - 2 uguais compara o conteuro do Booleam 345 com o conteúdo da String "345" = True
 // console.log(nuremo1 + numeroString1)
 
 // console.log(nuremo1 + nuremo2)
@@ -83,7 +83,6 @@
 
 // const nuremo1 = 345;
 // const numeroString1 = "345";
-
 
 // const nuremo2 = 345;
 // const numeroString2 = "345";
@@ -131,4 +130,29 @@
 // console.log("Cargo atual " + cargoAtual)
 // console.log("Tempo de casa " + tempoDeCasa)
 
+//----- OPERADORES -----
+// OPERADOR TERNARIO 
+
+const idadeMinima = 18;
+const idadeClient = 19;
+
+// if (idadeClient >= idadeMinima) {
+//     console.log("Cerveja")
+// }   else    {
+//     console.log("Suco")
+// }
+
+            // condição                   // true     //False  
+// console.log(idadeClient >= idadeMinima ? "Cerveja" : "suco") 
+
+
+// ----- TEMPLATE STRING ----- 
+
+const nome = "Bodex";
+const idade = 2023-1985;
+const cidadeDeNascimento = "Minas Gerais";
+
+// const apresentação = "Meu nome é " + nome + ", minha iadade é " + idade +", e nasci na ciadade de " + cidadeDeNascimento;
+
+const apresentação = `Meu nome é ${nome}, minha idade é ${idade}, e nasci na ciadade de ${cidadeDeNascimento};
 
