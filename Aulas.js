@@ -203,3 +203,4 @@ const entrega = `"aqui esta, hoje temos ${idade >= 18 ? marcaCerveja : marcaSuco
 
 console.log(pedido)
 console.log(entrega)
+
