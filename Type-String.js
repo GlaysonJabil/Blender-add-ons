@@ -49,3 +49,4 @@ console.log(`Meu nome é ${nome} e eu sou um ${profissão}`);
 // Var nome = "Bodex";
 // var idade = 29;
 // console.log("meu nome é " + nome + " eu tenho " + idade + " anos");
+
