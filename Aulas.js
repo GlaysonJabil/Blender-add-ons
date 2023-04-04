@@ -133,8 +133,8 @@
 //----- OPERADORES -----
 // OPERADOR TERNARIO 
 
-const idadeMinima = 18;
-const idadeClient = 19;
+// const idadeMinima = 18;
+// const idadeClient = 19;
 
 // if (idadeClient >= idadeMinima) {
 //     console.log("Cerveja")
@@ -148,11 +148,58 @@ const idadeClient = 19;
 
 // ----- TEMPLATE STRING ----- 
 
-const nome = "Bodex";
-const idade = 2023-1985;
-const cidadeDeNascimento = "Minas Gerais";
+// const nome = "Bodex";
+// const idade = 2023-1985;
+// const cidadeDeNascimento = "Minas Gerais";
 
-// const apresentação = "Meu nome é " + nome + ", minha iadade é " + idade +", e nasci na ciadade de " + cidadeDeNascimento;
+// // const apresentação = "Meu nome é " + nome + ", minha iadade é " + idade +", e nasci na ciadade de " + cidadeDeNascimento;
 
-const apresentação = `Meu nome é ${nome}, minha idade é ${idade}, e nasci na ciadade de ${cidadeDeNascimento};
+// const apresentação = `Meu nome é ${nome}, minha idade é ${idade}, e nasci na ciadade de ${cidadeDeNascimento}`;
 
+// console.log(apresentação)
+
+// ----- OPERADORES -----
+
+// const a = [];
+// const b = 20;
+// const c = true;
+// const d = ''
+
+// if (b === 20 && c != false && d == 0) {
+//     console.log('verdade')
+// } else {
+//     console.log('falso')
+// }
+
+// if ( a == 0) {
+//     console.log('verdade')
+// } else {
+//     console.log('falso')
+// }
+
+// if (d) {
+//     console.log('verdade')
+// } else {
+//     console.log('falso')
+// }
+
+// if (b == '20') {
+//     console.log('verdade')
+// } else {
+//     console.log('falso')
+// }
+
+// ----- TESTE OPERADORES -----
+
+const nome = ("Léo");
+const idade = ("19");
+const deMenor = ("suco");
+const deMaior = ("Cerveja;")
+const marcaCerveja = ("Buduvieser");
+const marcaSuco = ("tang")
+const pedido = `${nome} diz: "por favor quero beber ${idade >= 18 ? deMaior : deMenor}"`
+const entrega = `"aqui esta, hoje temos ${idade >= 18 ? marcaCerveja : marcaSuco}"`
+
+
+console.log(pedido)
+console.log(entrega)
