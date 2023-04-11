@@ -191,22 +191,22 @@
 
 // ----- TESTE OPERADORES -----
 
-const nome = ("Léo");
-const idade = ("19");
-const deMenor = ("suco");
-const deMaior = ("Cerveja;")
-const marcaCerveja = ("Buduvieser");
-const marcaSuco = ("tang")
-const pedido = `${nome} diz: "por favor quero beber ${idade >= 18 ? deMaior : deMenor}"`
-const entrega = `"aqui esta, hoje temos ${idade >= 18 ? marcaCerveja : marcaSuco}"`
+// const nome = ("Léo");
+// const idade = ("19");
+// const deMenor = ("suco");
+// const deMaior = ("Cerveja;")
+// const marcaCerveja = ("Buduvieser");
+// const marcaSuco = ("tang")
+// const pedido = `${nome} diz: "por favor quero beber ${idade >= 18 ? deMaior : deMenor}"`
+// const entrega = `"aqui esta, hoje temos ${idade >= 18 ? marcaCerveja : marcaSuco}"`
 
 
-console.log(pedido)
-console.log(entrega)
+// console.log(pedido)
+// console.log(entrega)
 
-function soma(numero1, numemor2) {
-    return numero1 + numemor2
-}
+// function soma(numero1, numemor2) {
+//     return numero1 + numemor2
+// }
 
-console.log(soma (2, 2))
+// console.log(soma (2, 2))
 
