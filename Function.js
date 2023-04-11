@@ -1,71 +1,84 @@
-// ----- FUNÇÔES -----
-// DECLARAÇÂO DE FUNÇÂO
-// 1 declara a Function 
+//========== DECLARAÇÂO DE FUNÇÂO ==========
+//FUNÇÂO NOMINARIA
 
-// function imprimetexto(texto) {
-//     console.log(texto)
-// }
+function soma(numero1, numero2) {
+    return numero1 + numero2
+}
+console.log(soma(20, 20))
 
-// imprimetexto("oi");
-// imprimetexto("Bom dia glayson, nota da priva foi ")
+//=====================
+//FUNÇÂO ANÔNIMA
 
-// function soma() {
-//     return 1 + 1 
-// }
+const exemple = function (numero1, numero2){
+    return numero1 + numero2;
+}
 
-// console.log(soma())
-// nota = (soma() + 6)
+console.log(exemple(17, 0.6))
 
-// if (nota >= 10) {
-//     console.log("Nota Maxima")
-// } else {
-//     console.log("Desta vez foi quase")
-// }
+//====================
+//ARROW FUNCTION 
 
-// const boletim = `${nota >= 10 ? "Seus pais vão adorar" : "é hoje que o coro vai comer"}`
+const arrowFunction = (numero1, numero2) => numero1 + numero2;
 
-// console.log(boletim)
+console.log(arrowFunction(18, 8));
 
-// ----- PARAMETROS E ARGUMENTOS -----
+//=====================
+//HOFS - HIGHER ODER FUNCTION
 
-// function soma(numero1, numero2) {
-//     return numero1 + numero2
-// }
-// console.log(soma(20, 20))
+const array = ['GOKU', 'GOHAN', 'BUMA', 'MESTRE KAME']; 
 
-// //----- Ordem x arqumentos--------
-
-// function nomeIdade(nome, idade) {
-//     return `Meu nome é ${nome} e minha idade é ${idade}`;
-// }
-//console.log(nomeIdade("Glayson" ,40)) // se vc inverter os parametros o Js vai printar erra, então não pode inverter a sequencia
-
-// function soma( numero1, numero2) {
-//     return numero1 + numero2;
-// }function multiplica( numero3, numero4) {
-//     return numero3 * numero4;
-// }
-
-// console.log(multiplica(soma(5, 5), soma(10 ,10))
-// )
+array.forEach((personagem) => console.log(`DBZ - ${personagem}`));
+    
 
 
 // ----- ARROW FUNCTION => -----
 
 
-function apresentar(nome) {
-    return`Meu nome é ${nome}`;
-}
+// function apresentar(nome) {
+//     return`Meu nome é ${nome}`;
+// }
 
-const apresentacao = nome => `Meu nome é ${nome}`;
-const soma = (num1, num2) => num1 + num2;
+// const apresentacao = nome => `Meu nome é ${nome}`;
+// const soma = (num1, num2) => num1 + num2;
 
 // Arrow Function com Return
 
-const somNumerosPequenos = (num1, num2) => {
-    if (num1 > 10 || num2 > 10) {
-     return "somente números de 1 a 9"    
-  } else {
-    return num1 + num2;
-  } 
-}  
+// const somaNumerosPequenos = (num1, num2) => {
+//     if (num1 > 10 || num2 > 10) {
+//       return "somente números de 1 a 9"    
+//     } else {
+//       return num1 + num2;
+//     } 
+// }
+
+// function verificaNumero (numero) {
+//     if (numero > 10) {
+//         return 'número maior que 10';
+//     } else {
+//         hello();
+//         return 'número não é maior que 10';
+//     }
+// }
+
+// function hello(){
+//     console.log("teste");
+// }
+
+// const retorno = verificaNumero(9);
+// console.log(retorno);
+
+// function soma() {
+//     return 2 + 3 
+//    }
+// console.log(soma())
+// nota = (soma() + 6)
+
+// if (nota >= 10) {
+//     console.log("Nota Maxima")
+//    } else {
+//     console.log("Desta vez foi quase")
+//    }
+
+// const boletim = `${nota >= 10 ? "Seus pais vão adorar" : "é hoje que o coro vai comer"}`
+
+// console.log(boletim)
