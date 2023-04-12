@@ -1,11 +1,11 @@
 module.exports = {
   lista: [
     {
-      "Id":15,"Registration":"1000","Name":"COMUM","Mail":"","Username":"comum","Status":"I"
+      "Id":15,"name":"1000","Name":"COMUM","Mail":"","Username":"comum","Status":"I"
     },{
       "Id":16,"Registration":"1000004","Name":"JOSE PEDRO DE ALCANTARA NETO","Mail":"jose_pedro@jabil.com","Username":"josep","Status":"I"
     },{
-      "Id":20,"Registration":"1000011","Name":"ANDRE LUIZ TRISTAO BARBOSA","Mail":null,"Username":"andret","Status":"I"
+      "Id":20,"name":"1000011","Name":"ANDRE LUIZ TRISTAO BARBOSA","Mail":null,"Username":"andret","Status":"I"
     },{
       "Id":22,"Registration":"1000021","Name":"ANGELO RONCALI ANTUNES DE MELO","Mail":"angelo_melo@jabil.com","Username":"angelor","Status":"I"
     },{
@@ -799,7 +799,7 @@ module.exports = {
     },{
       "Id":482,"Registration":"1004456","Name":"RONIARA FRAGA RUFINO","Mail":"Roniara_Fraga@jabil.com","Username":"FragaR","Status":"I"
     },{
-      "Id":483,"Registration":"1082328","Name":"WELLINGTON DE OLIVEIRA","Mail":"wellington_oliveira@jabil.com","Username":null,"Status":"I"
+      "Id":483,"name":"1082328","Name":"WELLINGTON DE OLIVEIRA","Mail":"wellington_oliveira@jabil.com","Username":null,"Status":"I"
     },{
       "Id":484,"Registration":"1236599","Name":"LUIS MENDOZA","Mail":"Luis_mendoza2@jabil.com","Username":"MendozaL14","Status":"I"
     },{

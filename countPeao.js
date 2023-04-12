@@ -1,15 +1,11 @@
 const database = require('./database')
 const activeinative = require('./database')
 
-activeinative.lista 
-
-// Contar funcionarios Ativo 
-
 function countActive(Status) {
     if(Status === 'A' || Status === 'I'){
-        return database.lista.filter((lista) => lista.Status === Status).length;      
+        return database.lista.filter((lista) => lista.Status === Status).length;  // Contar funcionarios Ativo 
     } else {
-        return "Sem stauts"
+        return "Sem status"
     }
 }
 
