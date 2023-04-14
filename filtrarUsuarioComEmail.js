@@ -1,7 +1,9 @@
 const data = require('./database');
 
 function filtrarUsuarioComMail(Mail) {
-    return data.lista.some((listaSome) => listaSome.Mail === filtrarUsuarioComMail);
+    return data.lista.filter((listaSome) => {
+        return listaSome.Mail === filtrarUsuarioComMail;
+    });
 }
 
 console.log(filtrarUsuarioComMail("Mail"));
